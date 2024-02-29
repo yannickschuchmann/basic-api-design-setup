@@ -1,5 +1,7 @@
 ## Basic example setup for API design
 
+### [See live demo of docs](https://yannickschuchmann.github.io/basic-api-design-setup/docs/tmf-641)
+
 ### Installation
 
 Install all dependencies. NodeJS >=18.16 is at least required.
