@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "lint": "spectral lint -v ./apis/**/*.{yaml}",
+    "mock": "prism mock",
+    "validate": "prism proxy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stoplight/prism-cli": "^5.5.4",
+    "@stoplight/spectral-cli": "^6.11.0",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">18.16"
+  }
+}
