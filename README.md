@@ -2,11 +2,23 @@
 
 ### [See live demo of docs](https://yannickschuchmann.github.io/basic-api-design-setup/docs/tmf-641)
 
-### Installation
+**Table of content:**
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+
+<a id="installation"></a>
+
+## Installation
 
 Install all dependencies. NodeJS >=18.16 is at least required.
 
 `npm install`
+
+<a id="usage"></a>
+
+## Usage
 
 ### Serve Documentation (powered by [Stoplight Elements](https://github.com/stoplightio/elements))
 
@@ -37,3 +49,14 @@ You can validate a API spec file against an API implementation by:
 `npm run validate $path-to-file $url-to-implementation`
 
 e.g. `npm run validate apis/tmf-641/TMF641-ServiceOrdering-v4.1.0.yaml https://tbd.io`
+
+<a id="roadmap"></a>
+
+## Roadmap
+
+- [x] Linting
+- [x] Docs generation
+- [x] Mocking server
+- [x] Validating against API Implementations
+- [ ] Linting on commit hook
+- [ ] Testing
