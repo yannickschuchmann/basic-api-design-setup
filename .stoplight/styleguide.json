@@ -1,0 +1,17 @@
+{
+  "name": "basic-api-design-setup",
+  "description": "",
+  "spectralExtends": [
+    "spectral:asyncapi"
+  ],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {},
+  "extendedDefault": false
+}
