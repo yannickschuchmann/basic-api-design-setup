@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "serve",
+    "build": "node ./scripts/build.js",
+    "download-contracts": "node ./scripts/download-contracts.js",
     "lint": "spectral lint -v ./apis/**/*.{yaml}",
     "mock": "prism mock",
     "validate": "prism proxy"
@@ -14,7 +17,11 @@
   "dependencies": {
     "@stoplight/prism-cli": "^5.5.4",
     "@stoplight/spectral-cli": "^6.11.0",
-    "serve": "^14.2.1"
+    "ejs": "^3.1.10",
+    "node-fetch": "^3.3.2",
+    "serve": "^14.2.3",
+    "unzipper": "^0.12.1",
+    "yaml": "^2.4.5"
   },
   "engines": {
     "node": ">18.16"
